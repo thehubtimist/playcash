@@ -1,0 +1,38 @@
+/* app.css */
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+/* Styles globaux */
+Page {
+    background-color: #f3f4f6;
+}
+
+.action-bar {
+    background-color: #7c3aed;
+    color: white;
+}
+
+.action-bar Label {
+    color: white;
+    font-size: 20;
+    font-weight: bold;
+}
+
+Button {
+    font-size: 14;
+    font-weight: bold;
+}
+
+.primary-button {
+    background-color: #7c3aed;
+    color: white;
+    padding: 12;
+    border-radius: 8;
+}
+
+.secondary-button {
+    background-color: #e5e7eb;
+    color: #374151;
+    padding: 12;
+    border-radius: 8;
+}
